@@ -1,5 +1,5 @@
 CC=gcc
-CFLAGS=-Wall -Wextra -Wpedantic
+CFLAGS=-Wall -Wextra -Wpedantic -Os
 LDFLAGS=-framework CoreFoundation -framework IOKit
 
 SOURCES=$(wildcard *.c)
